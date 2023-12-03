@@ -14,15 +14,20 @@ It uses Arduino IDE as programming environment
 ## Software Requirements
 - Arduino IDE installed on your computer
 - Librarys needed by the code, you can install from arduino IDE
-    - TODO (add library)
-    - DLiquidCrystal_I2CHT library
+    - Adafruit_GFX
+    - Adafruit_SSD1306
+    - Adafruit_BME280
 
 # Diagraman connetions
-![diagrama]()
+![diagrama](./images/Diagram_oled.png)
+
+# Prototype
+![prototype](./images/Prototype.jpeg)
+
 
 # Guide
 To execute this software follow these steps:
 1. Download or clone this repository to your local machine.
-2. Open the [`temp_hum_sensor.ino`](/temp_hum_sensor/temp_hum_sensor.ino) inside Arduino IDE
-3. Compile and flash [`temp_hum_sensor.ino`](/temp_hum_sensor/temp_hum_sensor.ino)
+2. Open the [`temp_hum_sensor_OLED.ino`](/temp_hum_sensor_OLED/temp_hum_sensor_OLED.ino) inside Arduino IDE
+3. Compile and flash [`temp_hum_sensor_OLED.ino`](/temp_hum_sensor_OLED/temp_hum_sensor_OLED.ino)
 
